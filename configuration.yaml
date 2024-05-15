@@ -1,0 +1,21 @@
+connectors:
+  matrix:
+    # Required
+    mxid: "@sinarpam:matrix.org"
+    password: "904350202nt"
+    rooms:
+      'main': '#fuckinnlphw:matrix.org'
+    # Optional
+    homeserver: "https://matrix.org"
+    nick: "mfboteghashagenlp"
+    welcome-message: true
+
+skills:
+  accept_invite: {
+    path: skills\test_skill.py
+    }
+  testy: { 
+    path: skills\test_skill.py
+    }
+
+
